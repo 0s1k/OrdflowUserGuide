@@ -1,0 +1,80 @@
+site_name: Ordflow Help Center
+site_description: Interactive user guide for Ordflow (app.ordflow.com)
+site_url: https://help.ordflow.com/
+repo_url: https://github.com/0s1k/OrdflowUserGuide
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/img/logo.svg
+  favicon: assets/img/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - getting-started/index.md
+      - Logging in: getting-started/login.md
+      - The dashboard: getting-started/dashboard.md
+  - Visual guide:
+      - visual-guide/index.md
+      - Creating an order: visual-guide/create-order.md
+  - Service guide:
+      - service-guide/index.md
+      - Which labels go on each bag: service-guide/labels.md
+      - How to label a bag: service-guide/bag-labeling.md
+      - Order an Express pickup: service-guide/express-pickup.md
+      - Order a Postal pickup (Center): service-guide/postal-pickup.md
+      - Postal pickup outside the Center (DHL): service-guide/postal-dhl-pickup.md
+      - Produce the paperwork: service-guide/paperwork.md
+      - Where to route the paperwork: service-guide/paperwork-routing.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/hotspots.js
+  - javascripts/service-finder.js
+
