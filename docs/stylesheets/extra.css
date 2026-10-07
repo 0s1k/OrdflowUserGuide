@@ -60,7 +60,7 @@
   z-index: 2;
 }
 .hotspot.open .hotspot-tip { display: block; }
-.hotspot.open { animation: none; }
+.hotspot.open { animation: none; z-index: 3; }
 @keyframes hotspot-pulse {
   0%   { box-shadow: 0 0 0 0 rgba(83, 109, 254, 0.6); }
   70%  { box-shadow: 0 0 0 10px rgba(83, 109, 254, 0); }
@@ -77,3 +77,26 @@
 .finder-question, .finder-result { font-weight: 600; margin-top: 0; }
 .finder-options .md-button { margin: 0 0.5rem 0.5rem 0; }
 .finder-back { font-size: 0.75rem; padding: 0.3em 0.9em; margin: 0.8rem 0.5rem 0 0; }
+
+/* ---------- Ordflow branding (matches app.ordflow.com header) ---------- */
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: #dfe6f1;
+  --md-primary-fg-color--light: #eef2f8;
+  --md-primary-fg-color--dark: #c9d3e3;
+  --md-primary-bg-color: #1f1f1f;
+  --md-primary-bg-color--light: #3a3a3a;
+  --md-accent-fg-color: #3a4fc4;
+  --md-typeset-a-color: #3a4fc4;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #2b3240;
+  --md-primary-fg-color--light: #37404f;
+  --md-primary-fg-color--dark: #1f2530;
+  --md-primary-bg-color: #f2f2f2;
+  --md-primary-bg-color--light: #cfcfcf;
+  --md-accent-fg-color: #8c9eff;
+  --md-typeset-a-color: #8c9eff;
+}
+.md-header__button.md-logo img { height: 1.9rem; }
+/* Logo is black on transparent; invert it on the dark theme */
+[data-md-color-scheme="slate"] .md-header__button.md-logo img { filter: invert(1); }
