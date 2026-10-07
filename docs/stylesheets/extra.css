@@ -1,0 +1,79 @@
+/* ---------- Task cards on the home page ---------- */
+.task-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.task-cards a {
+  display: block;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  color: var(--md-default-fg-color);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.task-cards a:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.task-cards strong { display: block; margin-bottom: 0.25rem; }
+.task-cards span { font-size: 0.85em; color: var(--md-default-fg-color--light); }
+
+/* ---------- Clickable screenshot hotspots ---------- */
+.hotspot-figure {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.hotspot-figure img { display: block; max-width: 100%; border-radius: 6px; box-shadow: 0 1px 6px rgba(0,0,0,.15); }
+.hotspot-figure p { margin: 0; }
+.hotspot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: var(--md-accent-fg-color);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(83, 109, 254, 0.6);
+  animation: hotspot-pulse 2s infinite;
+}
+.hotspot-tip {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 8px);
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 240px;
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  background: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-align: left;
+  z-index: 2;
+}
+.hotspot.open .hotspot-tip { display: block; }
+.hotspot.open { animation: none; }
+@keyframes hotspot-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(83, 109, 254, 0.6); }
+  70%  { box-shadow: 0 0 0 10px rgba(83, 109, 254, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(83, 109, 254, 0); }
+}
+
+/* ---------- Service finder wizard ---------- */
+#service-finder {
+  padding: 1.2rem 1.4rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background: var(--md-code-bg-color);
+}
+.finder-question, .finder-result { font-weight: 600; margin-top: 0; }
+.finder-options .md-button { margin: 0 0.5rem 0.5rem 0; }
+.finder-back { font-size: 0.75rem; padding: 0.3em 0.9em; margin: 0.8rem 0.5rem 0 0; }
