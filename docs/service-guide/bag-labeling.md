@@ -1,24 +1,20 @@
 # How to label a bag
 
+Each bag holds the parcels of **one service** and carries that service's **Air Waybill (AWB)**.
+
 ## Steps
 
-1. Print the labels for the bag (see [Which labels go on each bag](labels.md)).
-2. Place the bag flat with the front facing up.
-3. Stick the label on the front, flat, with the barcode fully visible.
-4. Seal the bag.
-
-<div class="hotspot-figure" markdown>
-![Correctly labelled bag](../assets/img/screenshot-placeholder.svg)
-<button class="hotspot" style="left:50%;top:40%" data-tip="Shipping label goes here, barcode fully visible">1</button>
-</div>
+1. Put the parcels of one service in the bag. For the USA, keep **USPS**, **UPS** and **Cirro** labels in separate bags. See the [bag rules](../orders/rules.md#bags).
+2. Print the AWB for that service, once for each bag. See [Shipping documents](../orders/documents.md).
+3. Put the AWB in a **transparent plastic pouch** (the kind with an adhesive back).
+4. Stick the pouch on the outside of the bag, with the AWB facing out and its barcode fully visible.
+5. Seal the bag.
 
 ## Common mistakes
 
-- Label stuck over a seam or fold, so the barcode won't scan
-- Labels from two different bags mixed up
-- Tape covering the barcode
+- Parcels of different services in the same bag
+- The AWB stuck directly on the bag without a pouch
+- The AWB folded, or its barcode covered
 
 !!! warning "To be completed"
-    Replace with a photo of a correctly labelled bag and confirm the steps and label position.
-
-**Next:** [Produce the paperwork →](paperwork.md)
+    A photo of a correctly labelled bag.

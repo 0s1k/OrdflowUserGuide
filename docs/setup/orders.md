@@ -12,8 +12,19 @@
 
 Choose how the **Orders** page shows your orders: **Stages** or **Grid**.
 
-!!! warning "To be completed"
-    Add screenshots of both views once the Orders page is documented.
+The change is saved straight away.
+
+=== "Stages"
+
+    Orders are cards arranged in columns (stages). See [The orders board](../orders/index.md#stages).
+
+    ![Stages view](../assets/img/orders/after-import.jpg)
+
+=== "Grid"
+
+    Orders are rows in a table, with title, number of items, ID, SKU, recipient, value and order date.
+
+    ![Grid view](../assets/img/orders/orders-grid.jpg)
 
 ## Filter countries
 

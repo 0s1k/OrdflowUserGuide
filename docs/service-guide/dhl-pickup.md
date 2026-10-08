@@ -8,13 +8,13 @@
 - [ ] All bags are labelled ([how](bag-labeling.md))
 - [ ] Paperwork is ready ([how](paperwork.md))
 
-## Order the pickup
+## Request the pickup
 
-Start on the Mailog pickup site. For pickups outside the Center you're taken to a request form. A Mailog agent checks the request and then books the pickup with DHL.
+Outside the Center there's no pickup form. Send an email to **[ops@mailogs.com](mailto:ops@mailogs.com)**:
 
-[Request a pickup](https://pickup.mailogs.co.il/order){ .md-button .md-button--primary }
+1. Attach your shipping paperwork. See [Shipping documents](../orders/documents.md).
+2. Ask for a DHL pickup and give the pickup address.
 
-!!! warning "To be completed"
-    Screenshots of the request form, how you're told the pickup is booked, and cut-off times.
+Mailog books the pickup with DHL for you.
 
 **In the Center?** See [Order a Mailog driver pickup](driver-pickup.md).
