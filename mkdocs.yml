@@ -57,6 +57,7 @@ nav:
       - Create shipping labels: orders/create-labels.md
       - Express shipments: orders/express.md
       - Shipments: orders/shipments.md
+      - Shipping documents: orders/documents.md
       - Shipping rules: orders/rules.md
   - Visual guide:
       - visual-guide/index.md
@@ -107,6 +108,7 @@ plugins:
             Create shipping labels: הפקת מדבקות משלוח
             Express shipments: משלוחי אקספרס
             Shipments: משלוחים
+            Shipping documents: מסמכי משלוח
             Shipping rules: כללי משלוח
             Visual guide: מדריך חזותי
             Creating an order: יצירת הזמנה

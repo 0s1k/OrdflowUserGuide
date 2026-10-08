@@ -57,6 +57,10 @@ Create a preset for Express once, in [Settings › Shipments](../setup/presets.m
 !!! note "IOSS field"
     For EU destinations the VAT field is called **IOSS**. For orders where VAT wasn't paid, it stays empty.
 
+## Invoices for Express {#invoices-for-express}
+
+For Express, all the shipping documents are produced automatically. When you create the labels you can also **add your own invoice** as a PDF. If you don't, Ordflow creates one for you.
+
 ## The summary: your pickup number
 
 After **Create Labels**, the summary shows the **Pickup#** (your booking number with the courier) and the **Pickup hours**.

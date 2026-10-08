@@ -41,4 +41,8 @@
 !!! tip "משלוחי אקספרס עם איסוף על ידי שליח"
     יש להם אפשרות נוספת, **Cancel Pickups (All)**, שמבטלת רק את האיסוף. ראו [משלוחי אקספרס](express.md#cancel-a-pickup-or-an-express-shipment).
 
-**הבא:** [כללי משלוח ←](rules.md)
+## ‏Complete
+
+אחרי ששלחתם את המסמכים והעברתם אותם ל-ops@mailogs.com, בחרו את המשלוחים ובחרו **Actions ‹ Complete**. הם עוברים ל-**Reports**. ראו [מסמכי משלוח](documents.md#mark-complete).
+
+**הבא:** [מסמכי משלוח ←](documents.md)
