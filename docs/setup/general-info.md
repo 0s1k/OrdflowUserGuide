@@ -21,7 +21,4 @@
 
 Click **Save** after changing the branch name, time zone, currency or week start.
 
-!!! warning "To be completed"
-    Confirm that new branches get USD by default, and whether the unit fields save on their own.
-
 **Next:** [Accounting →](accounting.md)

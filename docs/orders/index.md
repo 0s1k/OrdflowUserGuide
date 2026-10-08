@@ -54,7 +54,15 @@ Tick the box at the bottom left of a card to select it. The column header shows 
 | **Print** | **Orders**: a PDF of the selected orders. **Orders Slips**: packing slips. |
 | **Ship** | Open the shipping panel to [create labels](create-labels.md). |
 
-!!! warning "To be completed"
-    What **+ Add Stage** is for, and when to use Complete and Archive.
+## Using stages {#stages}
+
+Stages (the columns) are only there to help you organise your orders. Moving an order between stages doesn't change anything else.
+
+A good way to use them is **one stage per service**:
+
+1. Click **+ Add Stage** (to the right of the last column) and create stages such as **USA**, **IOSS** and **ROW**.
+2. Drag each order from **New** into the stage of its service.
+3. Tick the **checkbox in the stage header**. This selects all the orders in that stage.
+4. Click **Ship** and create the labels for the whole service at once. See [Create shipping labels](create-labels.md).
 
 **Next:** [Order details →](order-details.md)

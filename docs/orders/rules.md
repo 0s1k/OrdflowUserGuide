@@ -27,7 +27,7 @@ An EU order with VAT already paid (IOSS) can't be worth more than **€150**. If
 ## Bags
 
 !!! danger "One bag per service"
-    Put the parcels for each service in a **separate bag**. For example, if you ship to the USA, the EU and Australia, that's **3 bags**. Each bag gets an **AWB label**.
+    Put the parcels for each service in a **separate bag**. For example, if you ship to the USA, the EU and Australia, that's **3 bags**. Each bag gets its service's **AWB**, in a transparent plastic pouch stuck on the bag. See [How to label a bag](../service-guide/bag-labeling.md).
 
 **USA orders** can come out with three types of label: **USPS**, **UPS** or **Cirro**. Put each label type in its **own bag**, and stick the **same AWB label** on all the USA bags.
 

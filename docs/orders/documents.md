@@ -56,7 +56,7 @@ You can also print them right after **Create Labels**, from the **Print** menu i
 </div>
 
 !!! danger "One AWB on every bag"
-    Print the AWB **once for each bag** of that service and stick it on every bag. If you have 3 bags for the USA, print the USA AWB 3 times. See also the [bag rules](rules.md#bags).
+    Print the AWB **once for each bag** of that service. Put each copy in a **transparent plastic pouch** and stick it on the bag. If you have 3 bags for the USA, print the USA AWB 3 times. See also the [bag rules](rules.md#bags).
 
 Repeat steps 1 and 2 for each service you're shipping.
 

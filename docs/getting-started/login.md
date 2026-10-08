@@ -19,7 +19,7 @@
 
 1. On the sign-in screen, click **Forgot password**.
 2. Enter your **Email** and click **Submit**.
-3. Follow the instructions in the email you receive.
+3. Check your mailbox and follow the instructions in the email to set a new password.
 
 <div class="hotspot-figure" markdown>
 ![Ordflow forgot password screen](../assets/img/forgot-password.png)
@@ -29,8 +29,5 @@
 
 !!! tip "Remembered it?"
     Click **Sign In** next to *Already have account?* to go back to the sign-in screen.
-
-!!! warning "To be completed"
-    Confirm what the reset email looks like and how long the reset link is valid.
 
 **Next:** [The dashboard →](dashboard.md)
