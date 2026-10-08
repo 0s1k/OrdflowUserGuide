@@ -6,13 +6,14 @@ Presets are in **Settings › Shipments**, below the sender addresses.
 
 ## Recommended presets
 
-Most sellers need three presets:
+Most sellers need these presets:
 
 | Preset | For orders to | Service |
 |---|---|---|
 | **USA** | United States | Pylon MYPELT |
 | **EU** | European Union, VAT paid at checkout | BPost EShipper |
 | **ROW** | Rest of the world | BPost |
+| **EU no VAT** | European Union, VAT **not** paid at checkout | FedEx International Economy (Express, courier pickup). See [Express shipments](../orders/express.md). |
 
 ## Create a preset
 
