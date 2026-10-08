@@ -25,7 +25,7 @@ Most sellers need three presets:
 ![The USA preset, filled in](../assets/img/setup/preset-usa.jpg)
 <button class="hotspot" style="left:7.1%;top:29.6%" data-tip="Preset name, for example USA">1</button>
 <button class="hotspot" style="left:7.1%;top:35.2%" data-tip="Your sender address">2</button>
-<button class="hotspot" style="left:7.1%;top:40.8%" data-tip="None for Postal services; required for Express">3</button>
+<button class="hotspot" style="left:7.1%;top:40.8%" data-tip="None for Standard services; required for Express">3</button>
 <button class="hotspot" style="left:7.1%;top:51.6%" data-tip="Shipping service">4</button>
 <button class="hotspot" style="left:7.1%;top:62.6%" data-tip="Package size in cm, when using your own packaging">5</button>
 <button class="hotspot" style="left:43.3%;top:92.4%" data-tip="Save the preset">6</button>
@@ -47,12 +47,12 @@ Most sellers need three presets:
 ![Shipping services](../assets/img/setup/preset-services.jpg)
 </div>
 
-## Express and Postal services
+## Express and Standard services
 
 | Type | Services | Drop-off |
 |---|---|---|
 | **Express** | DHL Express, FedEx International Priority, FedEx International Economy | **Required**: Courier Pick Up or Courier Location |
-| **Postal** | All other services (BPost, BPost EShipper, Pylon…) | **None** |
+| **Standard** (non-Express) | All other services (BPost, BPost EShipper, Pylon…) | **None** |
 
 The services you can choose are switched on by Mailog when your account is created.
 
@@ -60,7 +60,7 @@ The services you can choose are switched on by Mailog when your account is creat
 
 | Option | Meaning |
 |---|---|
-| **None** | For Postal services. |
+| **None** | For Standard services. |
 | **Courier Pick Up** | A courier collects the parcels from your sender address. When you choose this, a **Pickup** time window appears. Express pickups are available from 09:30 until the end of the day. |
 | **Courier Location** | You drop the parcels off at a carrier location yourself. |
 

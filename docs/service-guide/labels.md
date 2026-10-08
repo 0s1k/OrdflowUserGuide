@@ -8,13 +8,13 @@ Each bag needs the labels Ordflow produced for it. Use the tabs to find your ser
     |---|---|---|
     | _e.g. Shipping label_ | _Screen › button_ | _1_ |
 
-=== "Postal: Center"
+=== "Standard: Center"
 
     | Label | Where it comes from in Ordflow | How many per bag |
     |---|---|---|
-    | _e.g. Postal label_ | _Screen › button_ | _1_ |
+    | _e.g. Standard label_ | _Screen › button_ | _1_ |
 
-=== "Postal: outside Center (DHL)"
+=== "Standard: outside Center (DHL)"
 
     | Label | Where it comes from in Ordflow | How many per bag |
     |---|---|---|

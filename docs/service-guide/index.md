@@ -10,15 +10,15 @@ Answer the questions below to get your checklist.
 
 ## All topics
 
-| Topic | Express | Postal (Center) | Postal (outside Center) |
+| Topic | Express | Standard (Center) | Standard (outside Center) |
 |---|:-:|:-:|:-:|
 | [Which labels go on each bag](labels.md) | ✅ | ✅ | ✅ |
 | [How to label a bag](bag-labeling.md) | ✅ | ✅ | ✅ |
 | [Produce the paperwork](paperwork.md) | ✅ | ✅ | ✅ |
 | [Where to route the paperwork](paperwork-routing.md) | | ✅ | ✅ |
 | [Order an Express pickup](express-pickup.md) | ✅ | | |
-| [Order a Postal pickup](postal-pickup.md) | | ✅ | |
-| [Order a DHL pickup](postal-dhl-pickup.md) | | | ✅ |
+| [Order a Mailog driver pickup](driver-pickup.md) | | ✅ | |
+| [Order a DHL pickup](dhl-pickup.md) | | | ✅ |
 
 !!! warning "To be completed"
     Check this table and the questions above against the real process; for example, whether Express also needs paperwork routing.

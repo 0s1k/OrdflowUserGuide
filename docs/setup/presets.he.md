@@ -25,7 +25,7 @@
 ![פריסט USA ממולא](../assets/img/setup/preset-usa.jpg)
 <button class="hotspot" style="left:7.1%;top:29.6%" data-tip="שם הפריסט, למשל USA">1</button>
 <button class="hotspot" style="left:7.1%;top:35.2%" data-tip="כתובת השולח שלכם">2</button>
-<button class="hotspot" style="left:7.1%;top:40.8%" data-tip="None לשירותי דואר; חובה לבחור באקספרס">3</button>
+<button class="hotspot" style="left:7.1%;top:40.8%" data-tip="None למשלוח רגיל; חובה לבחור באקספרס">3</button>
 <button class="hotspot" style="left:7.1%;top:51.6%" data-tip="שירות המשלוח">4</button>
 <button class="hotspot" style="left:7.1%;top:62.6%" data-tip="מידות החבילה בס״מ, כשמשתמשים באריזה שלכם">5</button>
 <button class="hotspot" style="left:43.3%;top:92.4%" data-tip="שמירת הפריסט">6</button>
@@ -47,12 +47,12 @@
 ![שירותי משלוח](../assets/img/setup/preset-services.jpg)
 </div>
 
-## שירותי אקספרס ושירותי דואר
+## משלוח אקספרס ומשלוח רגיל
 
 | סוג | שירותים | מסירה לשליח |
 |---|---|---|
 | **אקספרס** | DHL Express,‏ FedEx International Priority,‏ FedEx International Economy | **חובה**:‏ Courier Pick Up או Courier Location |
-| **דואר** | כל שאר השירותים (BPost,‏ BPost EShipper,‏ Pylon…) | **None** |
+| **רגיל** (לא אקספרס) | כל שאר השירותים (BPost,‏ BPost EShipper,‏ Pylon…) | **None** |
 
 השירותים שזמינים לכם מופעלים על ידי Mailog בעת פתיחת החשבון.
 
@@ -60,7 +60,7 @@
 
 | אפשרות | משמעות |
 |---|---|
-| **None** | לשירותי דואר. |
+| **None** | למשלוח רגיל. |
 | **Courier Pick Up** | שליח אוסף את החבילות מכתובת השולח. כשבוחרים באפשרות הזו מופיע חלון זמן לאיסוף (**Pickup**). איסופי אקספרס זמינים מ-09:30 ועד סוף היום. |
 | **Courier Location** | אתם מוסרים את החבילות בעצמכם בנקודת מסירה של חברת השילוח. |
 

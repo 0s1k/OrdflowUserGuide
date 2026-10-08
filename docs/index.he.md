@@ -17,8 +17,8 @@ hide:
 <a href="service-guide/labels/"><strong>🏷️ לדעת אילו מדבקות על כל שקית</strong><span>כללי מדבקות לפי שירות</span></a>
 <a href="service-guide/bag-labeling/"><strong>👜 להדביק מדבקה נכון</strong><span>איפה ואיך מדביקים</span></a>
 <a href="service-guide/express-pickup/"><strong>⚡ להזמין איסוף אקספרס</strong><span>שירות אקספרס</span></a>
-<a href="service-guide/postal-pickup/"><strong>📮 להזמין איסוף דואר</strong><span>אזור המרכז</span></a>
-<a href="service-guide/postal-dhl-pickup/"><strong>🚚 להזמין איסוף דואר מחוץ למרכז</strong><span>האיסוף מתבצע על ידי DHL</span></a>
+<a href="service-guide/driver-pickup/"><strong>🚐 להזמין איסוף על ידי נהג Mailog</strong><span>משלוח רגיל, אזור המרכז</span></a>
+<a href="service-guide/dhl-pickup/"><strong>🚚 להזמין איסוף מחוץ למרכז</strong><span>משלוח רגיל, האיסוף על ידי DHL</span></a>
 <a href="service-guide/paperwork/"><strong>📄 להפיק מסמכים</strong><span>הדפסת מסמכי משלוח</span></a>
 <a href="service-guide/paperwork-routing/"><strong>📬 לדעת לאן שולחים את המסמכים</strong><span>מי מקבל איזה מסמך</span></a>
 <a href="getting-started/"><strong>🚀 להתחיל לעבוד עם Ordflow</strong><span>התחברות והתמצאות במערכת</span></a>

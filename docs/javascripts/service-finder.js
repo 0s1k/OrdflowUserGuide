@@ -7,7 +7,7 @@ const STEPS = {
     q: "Which service is this shipment going with?",
     options: [
       { label: "Express", next: "express" },
-      { label: "Postal", next: "postalArea" },
+      { label: "Standard (non-Express)", next: "postalArea" },
     ],
   },
   postalArea: {
@@ -27,23 +27,23 @@ const STEPS = {
     ],
   },
   postalCenter: {
-    result: "Postal shipment from the Center: label the bags, print and route the paperwork, then order a Postal pickup.",
+    result: "Standard shipment from the Center: label the bags, print and route the paperwork, then order a Mailog driver pickup.",
     links: [
       { label: "1. Which labels go on each bag", href: "labels/" },
       { label: "2. How to label a bag", href: "bag-labeling/" },
       { label: "3. Produce the paperwork", href: "paperwork/" },
       { label: "4. Where to route the paperwork", href: "paperwork-routing/" },
-      { label: "5. Order a Postal pickup", href: "postal-pickup/" },
+      { label: "5. Order a Mailog driver pickup", href: "driver-pickup/" },
     ],
   },
   postalDhl: {
-    result: "Postal shipment from outside the Center: the pickup is done by DHL.",
+    result: "Standard shipment from outside the Center: the pickup is done by DHL.",
     links: [
       { label: "1. Which labels go on each bag", href: "labels/" },
       { label: "2. How to label a bag", href: "bag-labeling/" },
       { label: "3. Produce the paperwork", href: "paperwork/" },
       { label: "4. Where to route the paperwork", href: "paperwork-routing/" },
-      { label: "5. Order a DHL pickup", href: "postal-dhl-pickup/" },
+      { label: "5. Order a DHL pickup", href: "dhl-pickup/" },
     ],
   },
 };
