@@ -95,7 +95,7 @@ Mailog reads the AWB number, writes it into your invoice as the invoice number, 
 
 ## 5. Mark the shipments as Complete
 
-In [Shipments](shipments.md), select the shipments you've just sent and choose **Actions › Complete**. They move to **Reports**, and your Shipments list is clear for the next batch.
+In [Shipments](shipments.md), select the shipments you've just sent and choose **Actions › Complete**. They move to [Reports](reports.md), and your Shipments list is clear for the next batch.
 
 !!! tip "Only after forwarding the email"
     Mark shipments **Complete** only after you've forwarded the documents to ops@mailogs.com.
