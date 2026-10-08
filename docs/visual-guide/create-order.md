@@ -6,7 +6,7 @@
 
 1. Click **New order**.
 2. Fill in the recipient details.
-3. Choose the service (Express or Postal).
+3. Choose the service (Express or Standard).
 4. Click **Save**.
 
 <div class="hotspot-figure" markdown>

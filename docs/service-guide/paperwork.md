@@ -1,27 +1,17 @@
 # Produce the paperwork
 
-How to generate and print the documents that go with a shipment.
+All the shipping documents for your shipments are produced in one place, the Mailog documents form. It collects the documents each service needs and gives you the **invoice as a PDF**. Ordflow's own invoice export is an Excel file.
 
-## Steps
-
-1. Open the shipment in Ordflow.
-2. Click **_Paperwork button name_**.
-3. Choose the documents to print.
-4. Print them.
-
-<div class="hotspot-figure" markdown>
-![Producing paperwork in Ordflow](../assets/img/screenshot-placeholder.svg)
-<button class="hotspot" style="left:34%;top:17%" data-tip="Open the paperwork menu">1</button>
-</div>
+[Open the documents form](https://mailogs.retool.com/form/77869aa3-cb9e-4c44-b697-dd44f6d2ee67){ .md-button .md-button--primary }
 
 ## Which documents per service
 
-| Document | Express | Postal (Center) | Postal (outside Center) |
+| Document | Express | Standard (Center) | Standard (outside Center) |
 |---|:-:|:-:|:-:|
-| _e.g. Manifest_ | | | |
-| _e.g. Delivery note_ | | | |
+| _e.g. AWB label_ | | | |
+| _e.g. Invoice_ | | | |
 
 !!! warning "To be completed"
-    Fill in the real button names, the screenshot and the documents needed for each service.
+    Step-by-step screenshots of the documents form, and the documents needed for each service.
 
 **Next:** [Where to route the paperwork →](paperwork-routing.md)

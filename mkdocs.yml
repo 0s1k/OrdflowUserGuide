@@ -65,8 +65,8 @@ nav:
       - Which labels go on each bag: service-guide/labels.md
       - How to label a bag: service-guide/bag-labeling.md
       - Order an Express pickup: service-guide/express-pickup.md
-      - Order a Postal pickup (Center): service-guide/postal-pickup.md
-      - Postal pickup outside the Center (DHL): service-guide/postal-dhl-pickup.md
+      - Order a Mailog driver pickup (Center): service-guide/driver-pickup.md
+      - Order a pickup outside the Center (DHL): service-guide/dhl-pickup.md
       - Produce the paperwork: service-guide/paperwork.md
       - Where to route the paperwork: service-guide/paperwork-routing.md
 
@@ -112,8 +112,8 @@ plugins:
             Which labels go on each bag: אילו מדבקות על כל שקית
             How to label a bag: איך להדביק מדבקה על שקית
             Order an Express pickup: הזמנת איסוף אקספרס
-            Order a Postal pickup (Center): הזמנת איסוף דואר (מרכז)
-            Postal pickup outside the Center (DHL): איסוף דואר מחוץ למרכז (DHL)
+            Order a Mailog driver pickup (Center): הזמנת איסוף על ידי נהג Mailog (מרכז)
+            Order a pickup outside the Center (DHL): הזמנת איסוף מחוץ למרכז (DHL)
             Produce the paperwork: הפקת מסמכים
             Where to route the paperwork: לאן שולחים את המסמכים
 

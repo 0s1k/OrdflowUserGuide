@@ -36,7 +36,7 @@ The **Shipments Details** panel opens on the right. Click **preset** at the top 
 |---|---|
 | **Ship From** | Your [sender address](../setup/addresses.md). |
 | **Ship Date** | The day the parcels will ship. |
-| **Drop-Off** | **None** for Postal services. For Express, choose how the courier gets the parcels. |
+| **Drop-Off** | **None** for Standard (non-Express) services. For Express, choose how the courier gets the parcels. |
 | **Weight** | The weight **per item**. See the warning below. |
 | **Service** | The shipping service. It must match the destination: see the [rules](rules.md). |
 | **Package**, **Size** | Your packaging and its size in cm. |
@@ -73,10 +73,10 @@ The orders leave the board and move to [Shipments](shipments.md). If the order c
 
 <figure markdown>
 ![A sample label](../assets/img/orders/label-sample.jpg){ width="260" }
-<figcaption>A sample USA postal label. Tracking details are blurred.</figcaption>
+<figcaption>A sample USA Standard label. Tracking details are blurred.</figcaption>
 </figure>
 
-!!! note "Postal labels show Mailog as the sender"
-    On Postal services, Mailog is the consolidator, so the label shows Mailog as the sender, not your own address.
+!!! note "Standard labels show Mailog as the sender"
+    On Standard services, Mailog is the consolidator, so the label shows Mailog as the sender, not your own address.
 
 **Next:** [Shipments →](shipments.md)
