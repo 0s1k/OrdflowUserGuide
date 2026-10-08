@@ -11,7 +11,7 @@ There are only three ways to ship, plus one temporary option:
 | **USA** | USA service (Pylon MYPELT) | USA |
 | **EU**, VAT already paid at checkout (IOSS) | **BPost EShipper** | EU |
 | **Rest of the world** (not the USA, not the EU) | **BPost** | ROW |
-| **EU**, VAT **not** paid at checkout | **FedEx International Economy** (Express), for now | |
+| **EU**, VAT **not** paid at checkout | **FedEx International Economy** (Express), for now | EU no VAT ([Express](express.md)) |
 
 !!! tip "Heavy USA shipments"
     USA shipments over **7 kg** automatically get a **UPS Ground** label.

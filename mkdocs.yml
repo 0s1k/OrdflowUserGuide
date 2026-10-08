@@ -55,6 +55,7 @@ nav:
       - Import orders from Excel: orders/import.md
       - Order details: orders/order-details.md
       - Create shipping labels: orders/create-labels.md
+      - Express shipments: orders/express.md
       - Shipments: orders/shipments.md
       - Shipping rules: orders/rules.md
   - Visual guide:
@@ -104,6 +105,7 @@ plugins:
             Import orders from Excel: ייבוא הזמנות מאקסל
             Order details: פרטי הזמנה
             Create shipping labels: הפקת מדבקות משלוח
+            Express shipments: משלוחי אקספרס
             Shipments: משלוחים
             Shipping rules: כללי משלוח
             Visual guide: מדריך חזותי

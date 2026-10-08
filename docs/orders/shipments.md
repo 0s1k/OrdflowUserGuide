@@ -38,4 +38,7 @@ After you click **Finish**, your orders move to **Shipments**, the second icon i
 
 ![Confirm the cancellation](../assets/img/orders/shipments-cancel-confirm.jpg)
 
+!!! tip "Express shipments with a courier pickup"
+    These have an extra option, **Cancel Pickups (All)**, which cancels only the courier pickup. See [Express shipments](express.md#cancel-a-pickup-or-an-express-shipment).
+
 **Next:** [Shipping rules →](rules.md)

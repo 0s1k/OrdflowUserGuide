@@ -2,6 +2,8 @@
 
 You can create labels for one order or for many orders at once.
 
+This page shows a Standard shipment. For Express, see also [Express shipments](express.md).
+
 !!! warning "Check the rules first"
     Each destination has its own service, and some orders need to be split. Read the [shipping rules](rules.md) before you create labels for several orders together.
 
