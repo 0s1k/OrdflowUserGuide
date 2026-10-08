@@ -31,8 +31,11 @@
 .hotspot {
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 1.9rem;
-  height: 1.9rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  font-size: 0.75rem;
+  line-height: 1;
   border-radius: 50%;
   border: 2px solid #fff;
   background: var(--md-accent-fg-color);
@@ -100,3 +103,15 @@
 .md-header__button.md-logo img { height: 1.9rem; }
 /* Logo is black on transparent; invert it on the dark theme */
 [data-md-color-scheme="slate"] .md-header__button.md-logo img { filter: invert(1); }
+
+/* ---------- Right-to-left (Hebrew) ---------- */
+/* Screenshots show the English app, so keep figures left-to-right and only flip the tip text */
+[dir="rtl"] .hotspot-figure { direction: ltr; }
+[dir="rtl"] .hotspot-tip { direction: rtl; text-align: right; }
+
+/* ---------- Import example: highlight the two rows of order 1001 ---------- */
+.import-example tbody tr:nth-child(-n+2) td { background: color-mix(in srgb, var(--md-accent-fg-color) 12%, transparent); }
+
+/* ---------- Two images side by side (stack on phones) ---------- */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; align-items: start; }
+.grid-2 > * { min-width: 0; }

@@ -16,7 +16,9 @@ Then open http://127.0.0.1:8000.
 | What | Where |
 |---|---|
 | Menu / page order | `mkdocs.yml` → `nav` |
-| Pages | `docs/**/*.md` (plain Markdown) |
+| Pages (English) | `docs/**/*.md` (plain Markdown) |
+| Pages (Hebrew) | `docs/**/*.he.md`, next to the English page. A page without a `.he.md` twin shows the English text under `/he/`. |
+| Hebrew menu names | `mkdocs.yml` → `plugins` → `i18n` → `nav_translations` |
 | Screenshots | `docs/assets/img/` |
 | "What do I need to do?" wizard questions | `docs/javascripts/service-finder.js` → `STEPS` |
 | Styling | `docs/stylesheets/extra.css` |
@@ -36,7 +38,7 @@ Anything still missing is marked with a **"To be completed"** box on the page.
 
 ## Publishing
 
-Every push to `main` builds the site and deploys it to GitHub Pages (`.github/workflows/deploy.yml`).
+Every push to `main` builds the site and deploys it to GitHub Pages (`.github/workflows/deploy.yml`): https://0s1k.github.io/OrdflowUserGuide/ (English) and https://0s1k.github.io/OrdflowUserGuide/he/ (Hebrew).
 
 One-time setup:
 

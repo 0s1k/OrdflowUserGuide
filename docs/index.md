@@ -11,6 +11,8 @@ Step-by-step help for working in [Ordflow](https://app.ordflow.com). Pick what y
 ## I want to…
 
 <div class="task-cards">
+<a href="setup/"><strong>⚙️ Set up my account</strong><span>Settings, addresses, presets, connect your store</span></a>
+<a href="setup/integrations/"><strong>🔌 Connect my store</strong><span>Etsy, Shopify, eBay and more</span></a>
 <a href="service-guide/"><strong>🧭 Find out what to do for a shipment</strong><span>Answer 2 questions, get your checklist</span></a>
 <a href="service-guide/labels/"><strong>🏷️ Know which labels go on each bag</strong><span>Label rules per service</span></a>
 <a href="service-guide/bag-labeling/"><strong>👜 Label a bag correctly</strong><span>Where and how to stick the label</span></a>
