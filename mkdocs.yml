@@ -1,6 +1,6 @@
 site_name: Ordflow Help Center
 site_description: Interactive user guide for Ordflow (app.ordflow.com)
-site_url: https://help.ordflow.com/
+site_url: https://0s1k.github.io/OrdflowUserGuide/
 repo_url: https://github.com/0s1k/OrdflowUserGuide
 edit_uri: edit/main/docs/
 
@@ -25,7 +25,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -42,6 +41,22 @@ nav:
       - getting-started/index.md
       - Logging in: getting-started/login.md
       - The dashboard: getting-started/dashboard.md
+  - Initial setup:
+      - setup/index.md
+      - General info: setup/general-info.md
+      - Accounting: setup/accounting.md
+      - Orders settings: setup/orders.md
+      - Shipment settings: setup/shipment-settings.md
+      - Sender addresses: setup/addresses.md
+      - Presets: setup/presets.md
+      - Integrations: setup/integrations.md
+  - Orders:
+      - orders/index.md
+      - Import orders from Excel: orders/import.md
+      - Order details: orders/order-details.md
+      - Create shipping labels: orders/create-labels.md
+      - Shipments: orders/shipments.md
+      - Shipping rules: orders/rules.md
   - Visual guide:
       - visual-guide/index.md
       - Creating an order: visual-guide/create-order.md
@@ -54,6 +69,53 @@ nav:
       - Postal pickup outside the Center (DHL): service-guide/postal-dhl-pickup.md
       - Produce the paperwork: service-guide/paperwork.md
       - Where to route the paperwork: service-guide/paperwork-routing.md
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: he
+          name: עברית
+          build: true
+          site_name: מרכז העזרה של Ordflow
+          site_description: מדריך משתמש אינטראקטיבי ל-Ordflow (app.ordflow.com)
+          nav_translations:
+            Home: ראשי
+            Getting started: צעדים ראשונים
+            Logging in: התחברות
+            The dashboard: מסך הבית
+            Initial setup: הגדרות ראשוניות
+            General info: פרטים כלליים
+            Accounting: הנהלת חשבונות
+            Orders settings: הגדרות הזמנות
+            Shipment settings: הגדרות משלוחים
+            Sender addresses: כתובות שולח
+            Presets: פריסטים
+            Integrations: חיבורים
+            Orders: הזמנות
+            Import orders from Excel: ייבוא הזמנות מאקסל
+            Order details: פרטי הזמנה
+            Create shipping labels: הפקת מדבקות משלוח
+            Shipments: משלוחים
+            Shipping rules: כללי משלוח
+            Visual guide: מדריך חזותי
+            Creating an order: יצירת הזמנה
+            Service guide: מדריך שירותים
+            Which labels go on each bag: אילו מדבקות על כל שקית
+            How to label a bag: איך להדביק מדבקה על שקית
+            Order an Express pickup: הזמנת איסוף אקספרס
+            Order a Postal pickup (Center): הזמנת איסוף דואר (מרכז)
+            Postal pickup outside the Center (DHL): איסוף דואר מחוץ למרכז (DHL)
+            Produce the paperwork: הפקת מסמכים
+            Where to route the paperwork: לאן שולחים את המסמכים
 
 markdown_extensions:
   - admonition
