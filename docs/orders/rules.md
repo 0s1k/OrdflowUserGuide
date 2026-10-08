@@ -31,5 +31,4 @@ An EU order with VAT already paid (IOSS) can't be worth more than **€150**. If
 
 **USA orders** can come out with three types of label: **USPS**, **UPS** or **Cirro**. Put each label type in its **own bag**, and stick the **same AWB label** on all the USA bags.
 
-!!! warning "To be completed"
-    How to print the AWB label and the other shipping documents.
+See [Shipping documents](documents.md) for how to print the AWB and send the documents.
