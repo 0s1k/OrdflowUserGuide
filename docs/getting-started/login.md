@@ -30,4 +30,4 @@
 !!! tip "Remembered it?"
     Click **Sign In** next to *Already have account?* to go back to the sign-in screen.
 
-**Next:** [The dashboard →](dashboard.md)
+**Next:** [After you log in →](dashboard.md)

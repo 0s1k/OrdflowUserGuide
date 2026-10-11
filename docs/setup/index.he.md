@@ -32,4 +32,4 @@
 </div>
 
 !!! info "שירותי המשלוח שלכם"
-    שירותי המשלוח שזמינים לכם (למשל FedEx,‏ DHL,‏ Bpost או Pylon) מופעלים על ידי Mailog בעת פתיחת החשבון. אם חסר לכם שירות, [פנו לתמיכה](mailto:info@ordflow.com).
+    שירותי המשלוח שזמינים לכם (למשל FedEx,‏ DHL,‏ Bpost או Pylon) מופעלים על ידי Mailog בעת פתיחת החשבון. אם חסר לכם שירות, פנו ל-[customer.service@mailogs.com](mailto:customer.service@mailogs.com).

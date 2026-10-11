@@ -32,4 +32,4 @@ All settings are under the **gear icon** at the bottom of the left menu. Setting
 </div>
 
 !!! info "Your shipping services"
-    The shipping services you can use (for example FedEx, DHL, Bpost or Pylon) are switched on by Mailog when your account is created. If a service you need is missing, [contact support](mailto:info@ordflow.com).
+    The shipping services you can use (for example FedEx, DHL, Bpost or Pylon) are switched on by Mailog when your account is created. If a service you need is missing, contact [customer.service@mailogs.com](mailto:customer.service@mailogs.com).

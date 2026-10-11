@@ -30,6 +30,6 @@ Then click **Submit**. You'll receive an **email confirming the pickup**.
 </figure>
 
 !!! warning "Same-day pickups: order by 09:00"
-    A pickup for the same day can only be ordered until **09:00**. After that, for urgent cases only, email Mailog customer service.
+    A pickup for the same day can only be ordered until **09:00**. After that, for urgent cases only, email Mailog customer service at [customer.service@mailogs.com](mailto:customer.service@mailogs.com).
 
 **Outside the Center?** See [Order a pickup outside the Center (DHL)](dhl-pickup.md).

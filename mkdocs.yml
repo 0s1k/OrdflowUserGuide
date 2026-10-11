@@ -40,7 +40,7 @@ nav:
   - Getting started:
       - getting-started/index.md
       - Logging in: getting-started/login.md
-      - The dashboard: getting-started/dashboard.md
+      - After you log in: getting-started/dashboard.md
   - Initial setup:
       - setup/index.md
       - General info: setup/general-info.md
@@ -94,7 +94,7 @@ plugins:
             Home: ראשי
             Getting started: צעדים ראשונים
             Logging in: התחברות
-            The dashboard: מסך הבית
+            After you log in: אחרי ההתחברות
             Initial setup: הגדרות ראשוניות
             General info: פרטים כלליים
             Accounting: הנהלת חשבונות

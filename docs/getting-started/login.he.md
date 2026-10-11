@@ -30,4 +30,4 @@
 !!! tip "נזכרתם?"
     לחצו על **Sign In** ליד *Already have account?* כדי לחזור למסך הכניסה.
 
-**הבא:** [מסך הבית ←](dashboard.md)
+**הבא:** [אחרי ההתחברות ←](dashboard.md)
