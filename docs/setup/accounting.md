@@ -41,8 +41,17 @@ Some marketplaces collect VAT from the buyer at checkout. Etsy, for example, doe
 <button class="hotspot" style="left:31%;top:71.6%" data-tip="Enter the number you got from your sales channel">2</button>
 </div>
 
-1. Choose the **VAT type** from the list.
-2. Enter the number next to it.
+1. In **Select VAT Type**, choose the type, for example **IOSS**.
+2. Click the field on its right and choose **New IOSS...** (the option is called **New** followed by the type you chose). Numbers you've already saved for that type are listed below it.
+3. Type the number and click **Add**.
+
+<div class="grid-2" markdown>
+
+![Choose New IOSS...](../assets/img/setup/vat-new-list.jpg)
+
+![Type the number and click Add](../assets/img/setup/vat-add.jpg)
+
+</div>
 
 You can store several numbers, one for each VAT type you need. Get the numbers from your sales channel (Etsy, Shopify and so on).
 
