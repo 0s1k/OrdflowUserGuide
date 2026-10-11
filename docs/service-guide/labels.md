@@ -1,31 +1,16 @@
 # Which labels go on each bag
 
-Each bag needs the labels Ordflow produced for it. Use the tabs to find your service.
+Each parcel carries its own shipping label, as created in Ordflow. The **bag** carries only one thing: the **Air Waybill (AWB)** of its service.
 
-=== "Express"
+| Bag | AWB on the bag |
+|---|---|
+| **USA** | The **USA** AWB |
+| **EU, VAT paid (IOSS)** | The **EU** AWB |
+| **Rest of the world** | The **Rest of the world** AWB. It looks the same as the EU AWB. |
 
-    | Label | Where it comes from in Ordflow | How many per bag |
-    |---|---|---|
-    | _e.g. Shipping label_ | _Screen › button_ | _1_ |
+!!! danger "USA: separate bags per label type"
+    USA parcels can have **USPS**, **UPS** or **Cirro** labels. Put each type in its **own bag**. All the USA bags can carry the **same USA AWB**.
 
-=== "Standard: Center"
-
-    | Label | Where it comes from in Ordflow | How many per bag |
-    |---|---|---|
-    | _e.g. Standard label_ | _Screen › button_ | _1_ |
-
-=== "Standard: outside Center (DHL)"
-
-    | Label | Where it comes from in Ordflow | How many per bag |
-    |---|---|---|
-    | _e.g. DHL label_ | _Screen › button_ | _1_ |
-
-!!! tip "Quick check before sealing a bag"
-    - [ ] Every label belongs to **this** bag (bag number matches)
-    - [ ] Barcodes are flat, not folded or covered by tape
-    - [ ] Old labels are removed or covered
-
-!!! warning "To be completed"
-    Fill in the label types for each service, plus a photo of a correctly labelled bag.
+See [How to label a bag](bag-labeling.md) for how to attach the AWB, and [Shipping documents](../orders/documents.md) for how to print it.
 
 **Next:** [How to label a bag →](bag-labeling.md)
