@@ -10,6 +10,11 @@ Each bag holds the parcels of **one service** and carries that service's **Air W
 4. Stick the pouch on the outside of the bag, with the AWB facing out and its barcode fully visible.
 5. Seal the bag.
 
+<div class="hotspot-figure" markdown>
+![Correctly labelled bag (photo coming soon)](../assets/img/screenshot-placeholder.svg)
+<button class="hotspot" style="left:50%;top:40%" data-tip="AWB in a transparent pouch, barcode visible">1</button>
+</div>
+
 ## Common mistakes
 
 - Parcels of different services in the same bag

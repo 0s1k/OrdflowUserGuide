@@ -10,6 +10,11 @@
 4. הדביקו את השקית השקופה על הצד החיצוני של השקית, כשה-AWB פונה החוצה והברקוד שלו גלוי לגמרי.
 5. סגרו את השקית.
 
+<div class="hotspot-figure" markdown>
+![שקית מסומנת כראוי (תמונה בקרוב)](../assets/img/screenshot-placeholder.svg)
+<button class="hotspot" style="left:50%;top:40%" data-tip="‏AWB בשקית שקופה, הברקוד גלוי">1</button>
+</div>
+
 ## טעויות נפוצות
 
 - חבילות של שירותים שונים באותה שקית
