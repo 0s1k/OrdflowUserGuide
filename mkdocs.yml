@@ -37,6 +37,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Quick start: quick-start.md
   - Getting started:
       - getting-started/index.md
       - Logging in: getting-started/login.md
@@ -60,9 +61,6 @@ nav:
       - Shipping documents: orders/documents.md
       - Reports and history: orders/reports.md
       - Shipping rules: orders/rules.md
-  - Visual guide:
-      - visual-guide/index.md
-      - Creating an order: visual-guide/create-order.md
   - Service guide:
       - service-guide/index.md
       - Which labels go on each bag: service-guide/labels.md
@@ -92,6 +90,7 @@ plugins:
           site_description: מדריך משתמש אינטראקטיבי ל-Ordflow (app.ordflow.com)
           nav_translations:
             Home: ראשי
+            Quick start: התחלה מהירה
             Getting started: צעדים ראשונים
             Logging in: התחברות
             After you log in: אחרי ההתחברות
@@ -112,8 +111,6 @@ plugins:
             Shipping documents: מסמכי משלוח
             Reports and history: דוחות והיסטוריה
             Shipping rules: כללי משלוח
-            Visual guide: מדריך חזותי
-            Creating an order: יצירת הזמנה
             Service guide: מדריך שירותים
             Which labels go on each bag: אילו מדבקות על כל שקית
             How to label a bag: איך להדביק מדבקה על שקית

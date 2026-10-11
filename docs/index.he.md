@@ -11,6 +11,7 @@ hide:
 ## אני רוצה…
 
 <div class="task-cards">
+<a href="quick-start/"><strong>🏁 לשלוח את המשלוח הראשון</strong><span>התחלה מהירה: מההתחברות ועד האיסוף ב-10 שלבים</span></a>
 <a href="setup/"><strong>⚙️ להגדיר את החשבון שלי</strong><span>הגדרות, כתובות, פריסטים, חיבור החנות</span></a>
 <a href="setup/integrations/"><strong>🔌 לחבר את החנות שלי</strong><span>Etsy, Shopify, eBay ועוד</span></a>
 <a href="service-guide/"><strong>🧭 לדעת מה לעשות עם משלוח</strong><span>עונים על 2 שאלות ומקבלים רשימת משימות</span></a>

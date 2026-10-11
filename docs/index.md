@@ -11,6 +11,7 @@ Step-by-step help for working in [Ordflow](https://app.ordflow.com). Pick what y
 ## I want to…
 
 <div class="task-cards">
+<a href="quick-start/"><strong>🏁 Send my first shipment</strong><span>Quick start: login to pickup in 10 steps</span></a>
 <a href="setup/"><strong>⚙️ Set up my account</strong><span>Settings, addresses, presets, connect your store</span></a>
 <a href="setup/integrations/"><strong>🔌 Connect my store</strong><span>Etsy, Shopify, eBay and more</span></a>
 <a href="service-guide/"><strong>🧭 Find out what to do for a shipment</strong><span>Answer 2 questions, get your checklist</span></a>
