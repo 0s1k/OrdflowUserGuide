@@ -19,7 +19,11 @@ After you click **Finish**, your orders move to **Shipments**, the second icon i
 !!! info "Right after the label is created"
     Until the carrier scans the parcel, **Last Event** shows something like *Label Created* or *Shipment information received*. That's normal: the parcel hasn't been scanned yet.
 
-## Cancel a label or a shipment {#cancel-a-label}
+## Cancel a label, a shipment or a pickup {#cancel-a-label}
+
+All cancellations are done here, in **Shipments**. Regular and Express shipments are cancelled the same way. Express shipments with a courier pickup have one extra option.
+
+### Regular (Standard) shipment {#cancel-a-regular-shipment}
 
 1. Tick the box next to the shipment.
 2. Click **Shipments** in the toolbar and choose one of the options below.
@@ -38,8 +42,24 @@ After you click **Finish**, your orders move to **Shipments**, the second icon i
 
 ![Confirm the cancellation](../assets/img/orders/shipments-cancel-confirm.jpg)
 
-!!! tip "Express shipments with a courier pickup"
-    These have an extra option, **Cancel Pickups (All)**, which cancels only the courier pickup. See [Express shipments](express.md#cancel-a-pickup-or-an-express-shipment).
+### Express shipment with a pickup {#cancel-an-express-shipment}
+
+Express shipments with a pickup have an extra option:
+
+<div class="hotspot-figure" markdown>
+![Cancel options for an Express shipment](../assets/img/orders/express-cancel-menu.jpg)
+<button class="hotspot" style="left:34%;top:22.5%" data-tip="Cancel only the courier pickup">1</button>
+</div>
+
+| Option | What it does |
+|---|---|
+| **Cancel Pickups (All)** | Cancels **only the courier pickup**. The labels stay valid, so you can book a new pickup or drop the parcels off yourself. |
+| **Cancel Shipments** | Cancels the labels and the order. |
+| **Cancel Shipments & Restore Orders** | Cancels the labels and puts the orders back on the board. |
+
+Each option asks you to confirm. Click **OK**.
+
+![Confirm cancelling the pickup](../assets/img/orders/express-cancel-pickup-confirm.jpg)
 
 ## Complete
 

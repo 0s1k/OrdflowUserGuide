@@ -19,7 +19,11 @@
 !!! info "מיד אחרי הפקת המדבקה"
     עד שחברת השילוח סורקת את החבילה, ב-**Last Event** יופיע משהו כמו *Label Created* או *Shipment information received*. זה תקין: החבילה עדיין לא נסרקה.
 
-## ביטול מדבקה או משלוח {#cancel-a-label}
+## ביטול מדבקה, משלוח או איסוף {#cancel-a-label}
+
+כל הביטולים נעשים כאן, במסך **Shipments**. משלוח רגיל ומשלוח אקספרס מבוטלים באותה הדרך. למשלוחי אקספרס עם איסוף של שליח יש אפשרות נוספת אחת.
+
+### ביטול משלוח רגיל (Standard) {#cancel-a-regular-shipment}
 
 1. סמנו את התיבה ליד המשלוח.
 2. לחצו על **Shipments** בסרגל הכלים ובחרו אחת מהאפשרויות שלמטה.
@@ -38,8 +42,24 @@
 
 ![אישור הביטול](../assets/img/orders/shipments-cancel-confirm.jpg)
 
-!!! tip "משלוחי אקספרס עם איסוף על ידי שליח"
-    יש להם אפשרות נוספת, **Cancel Pickups (All)**, שמבטלת רק את האיסוף. ראו [משלוחי אקספרס](express.md#cancel-a-pickup-or-an-express-shipment).
+### ביטול משלוח אקספרס עם איסוף {#cancel-an-express-shipment}
+
+במשלוחי אקספרס עם איסוף יש אפשרות נוספת:
+
+<div class="hotspot-figure" markdown>
+![אפשרויות ביטול למשלוח אקספרס](../assets/img/orders/express-cancel-menu.jpg)
+<button class="hotspot" style="left:34%;top:22.5%" data-tip="ביטול האיסוף בלבד">1</button>
+</div>
+
+| אפשרות | מה היא עושה |
+|---|---|
+| **Cancel Pickups (All)** | מבטלת **רק את האיסוף**. המדבקות נשארות בתוקף, כך שאפשר להזמין איסוף חדש או למסור את החבילות בעצמכם. |
+| **Cancel Shipments** | מבטלת את המדבקות ואת ההזמנה. |
+| **Cancel Shipments & Restore Orders** | מבטלת את המדבקות ומחזירה את ההזמנות ללוח. |
+
+כל אפשרות מבקשת אישור. לחצו על **OK**.
+
+![אישור ביטול האיסוף](../assets/img/orders/express-cancel-pickup-confirm.jpg)
 
 ## ‏Complete
 

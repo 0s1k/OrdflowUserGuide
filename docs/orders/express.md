@@ -82,36 +82,6 @@ After **Create Labels**, the summary shows the **Pickup#** (your booking number 
 
 Then, as usual: **Print › Labels**, stick a label on each box, and click **Finish**. The shipment moves to [Shipments](shipments.md), with the pickup number in the **Pickup #** column.
 
-## Cancel a label, a shipment or a pickup {#cancel-a-pickup-or-an-express-shipment}
+## Cancel an Express shipment or its pickup {#cancel-a-pickup-or-an-express-shipment}
 
-All cancellations are done in [Shipments](shipments.md): tick the shipment, open the **Shipments** menu, choose an option and click **OK**.
-
-### Regular (Standard) shipment {#cancel-a-regular-shipment}
-
-A regular shipment has no courier pickup in Ordflow, so there are two options:
-
-| Option | When to use it |
-|---|---|
-| **Cancel Shipments** | The order isn't going out at all. The label and the order are cancelled. |
-| **Cancel Shipments & Restore Orders** | You need to change something and ship again, for example the customer changed their address. The label is cancelled and the order goes back to the board. |
-
-Full steps with screenshots: [Cancel a label](shipments.md#cancel-a-label).
-
-### Express shipment with a pickup {#cancel-an-express-shipment}
-
-Express shipments with a pickup have an extra option:
-
-<div class="hotspot-figure" markdown>
-![Cancel options for an Express shipment](../assets/img/orders/express-cancel-menu.jpg)
-<button class="hotspot" style="left:34%;top:22.5%" data-tip="Cancel only the courier pickup">1</button>
-</div>
-
-| Option | What it does |
-|---|---|
-| **Cancel Pickups (All)** | Cancels **only the courier pickup**. The labels stay valid, so you can book a new pickup or drop the parcels off yourself. |
-| **Cancel Shipments** | Cancels the labels and the order. |
-| **Cancel Shipments & Restore Orders** | Cancels the labels and puts the orders back on the board. |
-
-Each option asks you to confirm. Click **OK**.
-
-![Confirm cancelling the pickup](../assets/img/orders/express-cancel-pickup-confirm.jpg)
+Cancellations, for regular and Express shipments, are done in **Shipments**. See [Cancel a label, a shipment or a pickup](shipments.md#cancel-an-express-shipment).

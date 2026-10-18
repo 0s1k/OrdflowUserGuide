@@ -82,36 +82,6 @@
 
 ואז, כרגיל: **Print ‹ Labels**, מדביקים מדבקה על כל קרטון ולוחצים על **Finish**. המשלוח עובר ל[משלוחים](shipments.md), ומספר האיסוף מופיע בעמודה **Pickup #**.
 
-## ביטול מדבקה, משלוח או איסוף {#cancel-a-pickup-or-an-express-shipment}
+## ביטול משלוח אקספרס או איסוף {#cancel-a-pickup-or-an-express-shipment}
 
-כל הביטולים נעשים במסך [משלוחים](shipments.md): סמנו את המשלוח, פתחו את התפריט **Shipments**, בחרו אפשרות ולחצו על **OK**.
-
-### ביטול משלוח רגיל (Standard) {#cancel-a-regular-shipment}
-
-למשלוח רגיל אין איסוף של שליח ב-Ordflow, ולכן יש שתי אפשרויות:
-
-| אפשרות | מתי משתמשים בה |
-|---|---|
-| **Cancel Shipments** | ההזמנה לא יוצאת בכלל. המדבקה וההזמנה מבוטלות. |
-| **Cancel Shipments & Restore Orders** | צריך לשנות משהו ולשלוח מחדש, למשל הלקוח שינה כתובת. המדבקה מבוטלת וההזמנה חוזרת ללוח. |
-
-הסבר מלא עם צילומי מסך: [ביטול מדבקה](shipments.md#cancel-a-label).
-
-### ביטול משלוח אקספרס עם איסוף {#cancel-an-express-shipment}
-
-במשלוחי אקספרס עם איסוף יש אפשרות נוספת:
-
-<div class="hotspot-figure" markdown>
-![אפשרויות ביטול למשלוח אקספרס](../assets/img/orders/express-cancel-menu.jpg)
-<button class="hotspot" style="left:34%;top:22.5%" data-tip="ביטול האיסוף בלבד">1</button>
-</div>
-
-| אפשרות | מה היא עושה |
-|---|---|
-| **Cancel Pickups (All)** | מבטלת **רק את האיסוף**. המדבקות נשארות בתוקף, כך שאפשר להזמין איסוף חדש או למסור את החבילות בעצמכם. |
-| **Cancel Shipments** | מבטלת את המדבקות ואת ההזמנה. |
-| **Cancel Shipments & Restore Orders** | מבטלת את המדבקות ומחזירה את ההזמנות ללוח. |
-
-כל אפשרות מבקשת אישור. לחצו על **OK**.
-
-![אישור ביטול האיסוף](../assets/img/orders/express-cancel-pickup-confirm.jpg)
+ביטולים, של משלוחים רגילים ושל אקספרס, נעשים במסך **Shipments**. ראו [ביטול מדבקה, משלוח או איסוף](shipments.md#cancel-an-express-shipment).
