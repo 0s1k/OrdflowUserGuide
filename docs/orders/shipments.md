@@ -19,7 +19,7 @@ After you click **Finish**, your orders move to **Shipments**, the second icon i
 !!! info "Right after the label is created"
     Until the carrier scans the parcel, **Last Event** shows something like *Label Created* or *Shipment information received*. That's normal: the parcel hasn't been scanned yet.
 
-## Cancel a label
+## Cancel a label or a shipment {#cancel-a-label}
 
 1. Tick the box next to the shipment.
 2. Click **Shipments** in the toolbar and choose one of the options below.

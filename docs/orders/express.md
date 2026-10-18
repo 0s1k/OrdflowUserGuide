@@ -82,9 +82,24 @@ After **Create Labels**, the summary shows the **Pickup#** (your booking number 
 
 Then, as usual: **Print › Labels**, stick a label on each box, and click **Finish**. The shipment moves to [Shipments](shipments.md), with the pickup number in the **Pickup #** column.
 
-## Cancel a pickup or an Express shipment
+## Cancel a label, a shipment or a pickup {#cancel-a-pickup-or-an-express-shipment}
 
-In [Shipments](shipments.md), tick the shipment and open the **Shipments** menu. Express shipments with a pickup have an extra option:
+All cancellations are done in [Shipments](shipments.md): tick the shipment, open the **Shipments** menu, choose an option and click **OK**.
+
+### Regular (Standard) shipment {#cancel-a-regular-shipment}
+
+A regular shipment has no courier pickup in Ordflow, so there are two options:
+
+| Option | When to use it |
+|---|---|
+| **Cancel Shipments** | The order isn't going out at all. The label and the order are cancelled. |
+| **Cancel Shipments & Restore Orders** | You need to change something and ship again, for example the customer changed their address. The label is cancelled and the order goes back to the board. |
+
+Full steps with screenshots: [Cancel a label](shipments.md#cancel-a-label).
+
+### Express shipment with a pickup {#cancel-an-express-shipment}
+
+Express shipments with a pickup have an extra option:
 
 <div class="hotspot-figure" markdown>
 ![Cancel options for an Express shipment](../assets/img/orders/express-cancel-menu.jpg)
